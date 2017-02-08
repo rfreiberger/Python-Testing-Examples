@@ -9,6 +9,8 @@ class ProcessTestCase(unittest.TestCase):
     """Testing the process_check script"""
 
     def test_command_run(self):
+        # 
+        # 
         command_string = command_run("uname")
         self.assertEqual(command_string, "Darwin\n")
 
